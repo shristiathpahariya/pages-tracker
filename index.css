@@ -23,6 +23,8 @@ h1 {
     margin-top: 10px;
     margin-bottom: 10px;
     color: #05004e;
+    margin-top: 190px;
+    font-size: 40px;
 }
 
 h2 {
@@ -34,13 +36,15 @@ h2 {
 
 button {
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     color: #05004e;
     font-weight: bold;
-    width: 200px;
+    width: 300px;
+    margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 15px;
+    font-size: 20px;
 }
 
 #increment-btn {
@@ -58,6 +62,7 @@ button {
 #save-el{
     color: #05004e;
     font-size: 17px;
+    font-size: 25px;
 }
 #save-el:hover{
     text-decoration: underline;
