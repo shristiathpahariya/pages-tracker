@@ -1,0 +1,64 @@
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("book.jpeg");
+    background-size: cover;
+    opacity: 0.5; /* Adjust the opacity value as needed */
+    z-index: -1; /* Ensure the pseudo-element is behind other content */
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #05004e;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #05004e;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #05004e;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+#increment-btn {
+    background: #fb7777;
+}
+#increment-btn:hover{
+    background-color: #6892d5;
+}
+#save-btn {
+    background: #ff0000;
+}
+#save-btn:hover{
+    background-color: #ddeedf;
+}
+#save-el{
+    color: #05004e;
+    font-size: 17px;
+}
+#save-el:hover{
+    text-decoration: underline;
+}
